@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"../../scss/main.scss"
+	],
+	"sourcesContent": [
+		"html, body {\n    box-sizing: border-box;\n    padding: 0;\n    margin: 0;\n    width: 100%;\n    height: 100%;\n}\n\n.wrapper {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n    height: 100%;\n    background-color: black;\n    color: #fff;\n    overflow: hidden;\n    position: relative;\n}\n\n.sel-wrap {\n    display: flex;\n    position: absolute;\n    z-index: 2;\n    pointer-events: none;\n}\n\n.sel {\n    background-color: darkslategray;\n    margin: 10px;\n    padding: 10px;\n    pointer-events: none;\n}\n\n.bg-wrap {\n    display: flex;\n    z-index: 1;\n}\n\n.bg {\n    background-color: green;\n    width: 2000px;\n    height: 2000px;\n    border-radius: 100%;\n    transform: scale(.02);\n    transition: all .2s ease-in-out;\n    backface-visibility: hidden;\n    -webkit-filter: blur(0px);\n}\n\n.bg:hover {\n    //border-radius: 0;\n    transform: scale(1);\n}\n"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,IAAI,EAAE,AAAA,IAAI,CAAC;EACP,UAAU,EAAE,UAAU;EACtB,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;EACT,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI,GACf;;AAED,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,IAAI;EACb,eAAe,EAAE,MAAM;EACvB,WAAW,EAAE,MAAM;EACnB,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,gBAAgB,EAAE,KAAK;EACvB,KAAK,EAAE,IAAI;EACX,QAAQ,EAAE,MAAM;EAChB,QAAQ,EAAE,QAAQ,GACrB;;AAED,AAAA,SAAS,CAAC;EACN,OAAO,EAAE,IAAI;EACb,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,CAAC;EACV,cAAc,EAAE,IAAI,GACvB;;AAED,AAAA,IAAI,CAAC;EACD,gBAAgB,EAAE,aAAa;EAC/B,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,IAAI,GACvB;;AAED,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,IAAI;EACb,OAAO,EAAE,CAAC,GACb;;AAED,AAAA,GAAG,CAAC;EACA,gBAAgB,EAAE,KAAK;EACvB,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM;EACd,aAAa,EAAE,IAAI;EACnB,SAAS,EAAE,WAAU;EACrB,UAAU,EAAE,mBAAmB;EAC/B,mBAAmB,EAAE,MAAM;EAC3B,cAAc,EAAE,SAAS,GAC5B;;AAED,AAAA,GAAG,AAAA,MAAM,CAAC;EAEN,SAAS,EAAE,QAAQ,GACtB"
+}
